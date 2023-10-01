@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 1, 66);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(2, 2, 80);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(6, 6, 236);
+    font-size: 1.4em;
+}
+
+main hr {
+    border: 0;
+    background: lavender;
+    height: 1.3px;
+    margin: 40px 84px;
+}
+
+
+.left {
+    font-size: 1.5em;
+    margin: 30px 0;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+    margin: 70px 0;
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+.Buttons{
+    padding: 46px;
+}
+.btn{
+    padding: 12px;
+    background: rgb(156, 4, 143);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+
+.purple {
+    color: aqua;
+}
+
+#element {
+    color: aqua;
+}
+
+.Secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.Secondsection h1{
+ font-size: 1.9em;
+}
+text-purple{
+color: purple;
+}
+.Secondsection .box{
+    background: white; 
+    width: 77vw; 
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.Secondsection .vertical{
+height: 93px;
+width: 1px;
+background-color: white;
+margin: 0 120px;
+}
+.img-top{
+    width: 400px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+    align-items: center;
+}
+
+.vertical-title{
+position:relative;
+top: 77px;
+width: 150px;
+font-size: 14px;
+}
+.vertical-desc{
+position: relative;
+top: 84px;
+color: grey;
+width: 150px;
+font-size: 9px;
+}
+.container{
+    max-width: 1170px;
+    background-color: white;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+.footer{
+background-color: white;
+padding: 70px 0;
+}
+.footer col{
+    width: 25px;
+    padding: 0 15px;
+}
+.footer col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer col h4::before{
+content: "";
+position: absolute;
+left: 0;
+bottom: 10;
+color: white;
+height: 2px;
+box-sizing: border-box;
+}
+footercol ul li:not(:last-child){
+    margin-bottom: 10px;
+
+}
+
+.footercol ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition:  all.3s ease;
+
+}
+    .footercol ul li a:hover{
+        color: white;
+        padding: 8px;
+    }
+
+.footercol .social-link{
+    display: inline-block;
+   height: 40px;
+   width: 40px;
+   background-color: rgb(255, 255, 255),0.2;
+   margin: 0,10px,0;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+   color: #333;
+   transition:  all 0.5s ease;
+
+}
+.footercol .social-link a:hover{
+  color: #333;
+  background-color: white;
+}
+.CONTACT a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: palevioletred;
+    border-radius: 8px;
+    transition: 0.4s;
+   }
+   
+.CONTACT a:hover {
+    background: transparent;
+    border: 1px solid palevioletred;
+
+   }
+:root{
+    --bg-color:#000;
+    --text-color:palevioletred;
+    
+}
